@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args){
     int hightScore = calculateScore(true,10000,8,200);
-    System.out.println(hightScore);
+
+    System.out.println(toMilesPerHour(10.25));
+    //    System.out.println(hightScore);
+
 //    boolean gameOver = true;
 //    int score = 10000;
 //    int levelCompleted = 8;
@@ -28,6 +31,15 @@ public class Main {
         }
 
         return finalScore;
+    }
+
+
+    public static long toMilesPerHour(double kilometersPerhour){
+        if(kilometersPerhour <0){
+            return -1;
+        }else{
+            return Math.round(kilometersPerhour/1.5);
+        }
     }
 
 
