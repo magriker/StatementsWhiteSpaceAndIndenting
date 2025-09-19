@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args){
     int hightScore = calculateScore(true,10000,8,200);
-
+        System.out.println(70%60);
     System.out.println(toMilesPerHour(10.25));
-    //    System.out.println(hightScore);
 
 //    boolean gameOver = true;
 //    int score = 10000;
